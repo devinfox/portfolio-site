@@ -3,25 +3,25 @@
 }
 
 .contact-block-header {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .btn {
-    border-color: #FF7538;
+  border-color: #FF7538;
 }
 
 .btn:hover {
-    border-color: #E34234;
-    background-color: #E34234;
+  border-color: #E34234;
+  background-color: #E34234;
 }
 
 .btn-outline-primary {
-    color: #FF7538;
+  color: #FF7538;
 }
 
 .btn-outline-primary:hover {
-    background-color: #FED8B1;
-    color: #FF7538;
+  background-color: #FED8B1;
+  color: #FF7538;
 }
 
 .btn {
@@ -29,5 +29,5 @@
 }
 
 .email {
-    background-color: #FF7538;
+  background-color: #FF7538;
 }

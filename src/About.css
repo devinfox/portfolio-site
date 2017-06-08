@@ -1,9 +1,21 @@
 .about-root{
-    background-color: #f7f7f7;
-    padding-bottom: 24px;
-    padding-top: 24px;
+  background-color: #f7f7f7;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-content {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.about-p {
+  margin-bottom: 12px;
+}
+
+.about-p a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #422f2e;
+    text-decoration: none;
 }

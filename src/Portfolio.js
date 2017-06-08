@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import "./Portfolio.css";
 
 class Portfolio extends Component{
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Portfolio section</h2>
+      <div className="portfolio-root">
+        <div className="container">
+          <h2>Portfolio</h2>
+          Work in progress...
         </div>
       </div>
     );

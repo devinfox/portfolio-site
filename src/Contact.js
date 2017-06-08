@@ -12,7 +12,7 @@ class Contact extends Component{
  
     return (
       <div className="contact-root">
-            <h2>Contact me</h2>
+            <h2>Contact</h2>
             <div className="row">
               <div className="col-12">
                 <p className="contact-block-header">Want to have a chat? Send me an email and we can chat til cows come home!</p>

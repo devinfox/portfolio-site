@@ -9,7 +9,7 @@ import Footer from './Footer';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
-ReactDOM.render(<Navbar />, document.getElementById('navbar'));
+/*ReactDOM.render(<Navbar />, document.getElementById('navbar'));*/
 ReactDOM.render(<Header />, document.getElementById('header'));
 ReactDOM.render(<About />, document.getElementById('about'));
 ReactDOM.render(<Portfolio />, document.getElementById('portfolio'));

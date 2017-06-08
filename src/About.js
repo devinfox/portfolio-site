@@ -4,23 +4,31 @@ import "./About.css";
 
 class About extends Component{
   render() {
+    const age = calculateAge(new Date(1992,3,24));
     return (
       <div className="about-root">
         <div className="container">
           <div className="row">
             <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12 about-content">
-              <h2>About Section</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu orci vel ante vulputate viverra. Donec ac purus eu lectus euismod scelerisque. In imperdiet tincidunt arcu. Etiam et auctor purus, in mollis nisi. Vivamus volutpat risus sed ornare tempus. Sed cursus augue a lacus interdum iaculis. Quisque ut ante pellentesque, tincidunt nisi vitae, iaculis lorem.
+              <h2>About</h2>
+              <p className="about-p">
+                I am a {age}-year-old software developer passionate about software and 
+                technology in general.
               </p>
-              <p>
-                Aenean ante ante, placerat sit amet egestas vel, placerat nec odio. Nam suscipit elementum vulputate. Praesent in nisl nisl. Sed vel molestie orci. Morbi posuere diam eget purus tristique tristique. 
+              <p className="about-p">
+                I'm mainly interested in mobile and web development but, if a project is truly 
+                interesting, I will adapt to other roles just to make it happen.
               </p>
-              <p>
-                Sed viverra magna tellus, quis faucibus ligula suscipit eget. Sed vel accumsan ante. Donec eu nibh lorem. Vestibulum efficitur gravida dolor vitae commodo. Sed metus velit, vestibulum vitae lorem eget, eleifend vulputate risus. 
+              <p className="about-p">
+                Since I discovered Linux in 2010 I've been very attached to the open-source 
+                community and I continue to promote the movement. In the latest years, I've 
+                been open sourcing as much as I can and also been contributing to existing 
+                projects, like <a href="https://github.com/UnigramDev">Unigram</a>. Check out 
+                my <a href="https://github.com/mateiradu">Github</a> and see my contributions.
               </p>
-              <p>
-                Mauris imperdiet libero a erat mollis sagittis. Fusce vel libero luctus, viverra magna eu, cursus elit. Pellentesque porttitor lectus risus.
+              <p className="about-p">
+                When I'm not coding I love go for a ride with my motorcycle, go out for a 
+                delicious pizza with my friends or play the drums.
               </p>
             </div>
             <div className="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-12 col-sm-12 col-12">
@@ -31,6 +39,13 @@ class About extends Component{
       </div>
     );
   }
+  
+}
+
+function calculateAge(birthday) { // birthday is a date
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
 export default About;
