@@ -1,0 +1,13 @@
+h1 {
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.header-root{
+    font-family: 'Roboto', sans-serif;
+    padding: 32px;
+    background-color: #FF9966;
+}
