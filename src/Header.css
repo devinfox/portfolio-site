@@ -1,13 +1,17 @@
-h1 {
-    font-size: 44px;
-}
-
-h3 {
-    font-size: 32px;
-}
-
 .header-root{
-    font-family: 'Roboto', sans-serif;
+    height: 184px;
     padding: 32px;
-    background-color: #FF9966;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(135deg, #E34234, #FF5800, #FF7538);
+}
+
+.header-title {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+.header-sub {
+    font-size: 1.5rem;
+    font-weight: 300;
 }

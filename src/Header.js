@@ -6,8 +6,8 @@ class Header extends Component{
     return (
       <div className="header-root">
         <div className="container">
-          <h1>Matei Radu</h1>
-          <h3>Software developer</h3>
+          <div className="header-title">Matei Radu</div>
+          <div className="header-sub">Software developer</div>
         </div>
       </div>
     );
