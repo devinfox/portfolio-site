@@ -29,7 +29,7 @@ class Portfolio extends Component{
 }
 
 function initProjects() {
-    var projects = new Array();
+    var projects = [];
     projects.push(new ProjectData("/img/projects/myunicam.png","MyUnicam","A Xamarin app for the University of Camerino.","https://www.slideshare.net/MateiBogdanRadu/myunicam-xamarin-forms-mobile-application"));
     projects.push(new ProjectData("/img/projects/unigram.png","Unigram","A UWP Telegram client for Windows 10 that runs on Desktop, Mobile and Xbox.","http://unigram.me/"));
     projects.push(new ProjectData("/img/projects/bikercompanion.png","Biker Companion","Work in progress, coming soon...","#"));

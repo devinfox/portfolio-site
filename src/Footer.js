@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import './Footer.css';
 
+/**
+ * Footer component responsable for display quick links,
+ * copyright and license notice.
+ * 
+ * @author Matei Bogdan Radu
+ */
 class Footer extends Component{
   render() {
     /* Links */

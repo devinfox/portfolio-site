@@ -2,9 +2,19 @@ import React, { Component } from 'react';
 import Contact from './Contact';
 import "./About.css";
 
+/**
+ * Displays a brief description of myself and contact info.
+ * 
+ * It calls an instance of the Contact class for the contact
+ * portion.
+ * 
+ * @author Matei Bogdan Radu
+ */
 class About extends Component{
   render() {
+    /* Oldness counter :( */
     const age = calculateAge(new Date(1992,3,24));
+
     return (
       <div className="about-root">
         <div className="container">
@@ -42,7 +52,12 @@ class About extends Component{
   
 }
 
-function calculateAge(birthday) { // birthday is a date
+/**
+ * Calculates the age by providing the birthday.
+ * @param {Date} birthday 
+ * @returns {Number} Age
+ */
+function calculateAge(birthday) {
     var ageDifMs = Date.now() - birthday.getTime();
     var ageDate = new Date(ageDifMs); // miliseconds from epoch
     return Math.abs(ageDate.getUTCFullYear() - 1970);

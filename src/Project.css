@@ -1,28 +1,29 @@
 .project-root {
-    margin-top: 12px;
-    margin-bottom: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
-.project-btn{
-  background-color: #FF7538;
+.project-btn {
+  position: absolute;
   margin-top: 20px;
-  position: absolute; 
   bottom: 8px;
+  background-color: #FF7538;
 }
 
 .project-card-img-fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
+
 .project-card-img-fill img {
-    flex-shrink: 0;
-    width: 100%;
-    min-height: 57%;
+  width: 100%;
+  min-height: 57%;
+  flex-shrink: 0;
 }
 
 .project-title {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .project-badge {
