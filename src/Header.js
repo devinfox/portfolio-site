@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
 import "./Header.css";
 
+/**
+ * Responsable for giving a brief greeting and/or 
+ * an explanation of what this website is.
+ * 
+ * @author Matei Bogdan Radu
+ */
 class Header extends Component{
   render() {
     return (

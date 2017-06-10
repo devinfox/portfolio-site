@@ -54,8 +54,9 @@ class About extends Component{
 
 /**
  * Calculates the age by providing the birthday.
+ * 
  * @param {Date} birthday 
- * @returns {Number} Age
+ * @returns {Number} Resulting age.
  */
 function calculateAge(birthday) {
     var ageDifMs = Date.now() - birthday.getTime();

@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 
+/**
+ * Responsable for providing a navigation bar.
+ * 
+ * @author Matei Bogdan Radu
+ */
 class Navbar extends Component{
   render() {
     return (

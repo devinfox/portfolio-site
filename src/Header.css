@@ -1,17 +1,17 @@
-.header-root{
-    padding-top: 32px;
-    padding-bottom: 48px;
-    color: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    background-image: linear-gradient(135deg, #E34234, #FF5800, #FF7538);
+.header-root {
+  padding-top: 32px;
+  padding-bottom: 48px;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(135deg, #E34234, #FF5800, #FF7538);
 }
 
 .header-title {
-    font-size: 4rem;
-    line-height: 4rem;
+  font-size: 4rem;
+  line-height: 4rem;
 }
 
 .header-sub {
-    font-size: 1.5rem;
-    font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 300;
 }

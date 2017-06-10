@@ -1,17 +1,17 @@
 a {
-    font-size: 14px;
-    font-weight: 600;
-    color: #422f2e;
-    text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #422f2e;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #FF7538;
-    text-decoration: none;
+  color: #FF7538;
+  text-decoration: none;
 }
 
 p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer-root {
@@ -26,5 +26,5 @@ p {
 }
 
 .list-inline-item:not(:last-child) {
-    margin-right: 16px;
+  margin-right: 16px;
 }

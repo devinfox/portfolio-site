@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import "./Contact.css";
 
+/**
+ * Responsable for display contact information and links.
+ *
+ * @author Matei Bogdan Radu
+ */
 class Contact extends Component{
   render() {
     /* Button links */

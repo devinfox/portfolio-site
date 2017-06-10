@@ -3,6 +3,14 @@ import Project from "./Project";
 import ProjectData from "./ProjectData";
 import "./Portfolio.css";
 
+/**
+ * Responsable for displaying my projects.
+ * 
+ * It uses an array of ProjectData to pass as arguments when
+ * creating Project istances.
+ * 
+ * @author Matei Bogdan Radu
+ */
 class Portfolio extends Component{
   render() {
     const projects = initProjects();
@@ -23,11 +31,13 @@ class Portfolio extends Component{
       </div>
     );
   }
-
-  
-  
 }
 
+/**
+ * Initialized the Project array.
+ * 
+ * @returns {Array} collection of Projects.
+ */
 function initProjects() {
     var projects = [];
     projects.push(new ProjectData("/img/projects/myunicam.png","MyUnicam","A Xamarin app for the University of Camerino.","https://www.slideshare.net/MateiBogdanRadu/myunicam-xamarin-forms-mobile-application"));
@@ -37,6 +47,6 @@ function initProjects() {
     projects.push(new ProjectData("/img/projects/unigram_me.png","unigram.me","The Unigram project landing page, made with Bootstrap v4.","http://unigram.me/"));
     projects.push(new ProjectData("/img/projects/mateiradu_me.png","mateiradu.me","This same website you're looking at, build with React and Bootstrap.","https://github.com/mateiradu/personal-website"));
     return projects;
-  }
+}
 
 export default Portfolio;
