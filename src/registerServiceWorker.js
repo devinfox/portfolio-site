@@ -1,3 +1,10 @@
+/*
+ * Personal Website
+ * Copyright © 2016-2017 Matei Bogdan Radu <matei.radu.92@gmail.com>
+ * Licensed under MIT 
+ * (https://github.com/mateiradu/personal-webiste/blob/master/LICENSE)
+ */
+
 // In production, we register a service worker to serve assets from local cache.
 
 // This lets the app load faster on subsequent visits in production, and gives

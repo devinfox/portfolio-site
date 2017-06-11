@@ -1,4 +1,10 @@
-.header-root {
+/*
+ * Personal Website
+ * Copyright © 2016-2017 Matei Bogdan Radu <matei.radu.92@gmail.com>
+ * Licensed under MIT 
+ * (https://github.com/mateiradu/personal-webiste/blob/master/LICENSE)
+ */
+ .header-root {
   padding-top: 32px;
   padding-bottom: 48px;
   color: #ffffff;
