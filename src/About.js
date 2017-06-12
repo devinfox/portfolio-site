@@ -19,8 +19,6 @@ import "./About.css";
  */
 class About extends Component{
   render() {
-    const age = calculateAge(Constants.birthday);
-
     return (
       <div className="about-root">
         <div className="container">
@@ -28,7 +26,7 @@ class About extends Component{
             <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12 about-content">
               <h2>About</h2>
               <p className="about-p">
-                I am a {age}-year-old software developer passionate about software and 
+                I am a {Constants.age}-year-old software developer passionate about software and 
                 technology in general.
               </p>
               <p className="about-p">
@@ -55,19 +53,6 @@ class About extends Component{
       </div>
     );
   }
-  
-}
-
-/**
- * Calculates the age by providing the birthday.
- * 
- * @param {Date} birthday 
- * @returns {Number} Resulting age.
- */
-function calculateAge(birthday) {
-    var ageDifMs = Date.now() - birthday.getTime();
-    var ageDate = new Date(ageDifMs); // miliseconds from epoch
-    return Math.abs(ageDate.getUTCFullYear() - 1970);
 }
 
 export default About;

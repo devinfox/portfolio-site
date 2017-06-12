@@ -10,7 +10,8 @@ export const name = "Matei";
 export const fullName = "Matei Bogdan Radu";
 export const fullNameShort = "Matei Radu";
 export const email = "hello@mateiradu.me";
-export const birthday = new Date(1992,3,24);
+const birthday = new Date(1992,3,24);
+export const age = calculateAge(birthday);
 export const profession = "Software developer";
 
 // Contact links.
@@ -24,3 +25,15 @@ export const facebookLink = "https://www.facebook.com/mateiradu92";
 export const repoLink = githubLink + "/personal-website";
 export const licenseLink = repoLink + "/blob/master/LICENSE";
 export const licenseType = "MIT";
+
+/**
+ * Calculates the age by providing the birthday.
+ * 
+ * @param {Date} birthday 
+ * @returns {Number} Resulting age.
+ */
+function calculateAge(birthday) {
+    var ageDifMs = Date.now() - birthday.getTime();
+    var ageDate = new Date(ageDifMs); // miliseconds from epoch
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+}
