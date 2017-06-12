@@ -5,6 +5,7 @@
  * (https://github.com/mateiradu/personal-webiste/blob/master/LICENSE)
  */
 import React, { Component } from 'react';
+import * as Constants from './Constants';
 import './Footer.css';
 
 /**
@@ -15,15 +16,6 @@ import './Footer.css';
  */
 class Footer extends Component{
   render() {
-    /* Links */
-    const githubLink = "https://github.com/mateiradu";
-    const twitterLink = "https://twitter.com/matei_dev";
-    const facebookLink = "https://www.facebook.com/mateiradu92";
-    const linkedinLink = "https://www.linkedin.com/in/mateibogdanradu/";
-
-    /* License specific */
-    const repoLink = githubLink + "/personal-website";
-    const licenseLink = repoLink + "/blob/master/LICENSE";
     var currentYear = new Date().getFullYear();
 
     return (
@@ -32,25 +24,25 @@ class Footer extends Component{
           <div className="footer-links">
             <ul className="list-inline">
               <li className="list-inline-item">
-                <a href={githubLink}><b>GitHub</b></a>
+                <a href={Constants.githubLink}><b>GitHub</b></a>
               </li>
               <li className="list-inline-item">
-                <a href={twitterLink}><b>Twitter</b></a>
+                <a href={Constants.twitterLink}><b>Twitter</b></a>
               </li>
               <li className="list-inline-item">
-                <a href={facebookLink}><b>Facebook</b></a>
+                <a href={Constants.facebookLink}><b>Facebook</b></a>
               </li>
               <li className="list-inline-item">
-                <a href={linkedinLink}><b>LinkedIn</b></a>
+                <a href={Constants.linkedinLink}><b>LinkedIn</b></a>
               </li>
             </ul>
           </div>
           <div className="footer-license">
             <p>
-              Content Copyright © 2016-{currentYear} Matei Bogdan Radu.<br></br>
-              Designed and built by <a href={githubLink}>Matei Bogdan Radu</a>, 
-              code licensed under <a href={licenseLink}>MIT</a>, source 
-              available on <a href={repoLink}>Github</a>.
+              Content Copyright © 2016-{currentYear} {Constants.fullName}.<br></br>
+              Designed and built by <a href={Constants.githubLink}>{Constants.fullName}</a>, 
+              code licensed under <a href={Constants.licenseLink}>{Constants.licenseType}</a>, source 
+              available on <a href={Constants.repoLink}>Github</a>.
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@
  * (https://github.com/mateiradu/personal-webiste/blob/master/LICENSE)
  */
 import React, { Component } from 'react';
+import * as Constants from './Constants';
 import "./Header.css";
 
 /**
@@ -18,8 +19,8 @@ class Header extends Component{
     return (
       <div className="header-root">
         <div className="container">
-          <div className="header-title">Matei Radu</div>
-          <div className="header-sub">Software developer</div>
+          <div className="header-title">{Constants.fullNameShort}</div>
+          <div className="header-sub">{Constants.profession}</div>
         </div>
       </div>
     );

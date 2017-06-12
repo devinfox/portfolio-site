@@ -6,6 +6,7 @@
  */
 import React, { Component } from 'react';
 import Contact from './Contact';
+import * as Constants from './Constants';
 import "./About.css";
 
 /**
@@ -18,8 +19,7 @@ import "./About.css";
  */
 class About extends Component{
   render() {
-    /* Oldness counter :( */
-    const age = calculateAge(new Date(1992,3,24));
+    const age = calculateAge(Constants.birthday);
 
     return (
       <div className="about-root">
