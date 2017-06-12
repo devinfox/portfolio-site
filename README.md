@@ -24,6 +24,6 @@ This website uses the following frameworks and tools:
   * `react-scripts`
 
 ## License
-[MIT](https://github.com/UnigramDev/unigramdev.github.io/blob/master/LICENSE) License
+[MIT](https://github.com/mateiradu/personal-website/blob/master/LICENSE) License
 
 Copyright (c) 2016-2017 Matei Bogdan Radu.
