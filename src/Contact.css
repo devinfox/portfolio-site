@@ -12,22 +12,13 @@
   margin-bottom: 12px;
 }
 
-.btn {
-  border-color: #FF7538;
-}
-
-.btn:hover {
-  border-color: #E34234;
-  background-color: #E34234;
-}
-
 .btn-outline-primary {
-  color: #FF7538;
+  color: var(--main-color);
 }
 
 .btn-outline-primary:hover {
-  color: #FF7538;
-  background-color: #FED8B1;
+  color: var(--main-color);
+  background-color: var(--main-light-color) !important;
 }
 
 .btn {
@@ -35,5 +26,5 @@
 }
 
 .email {
-  background-color: #FF7538;
+  background-color: var(--main-color);
 }

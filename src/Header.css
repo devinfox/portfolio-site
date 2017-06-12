@@ -8,8 +8,10 @@
   padding-top: 32px;
   padding-bottom: 48px;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  background-image: linear-gradient(135deg, #E34234, #FF5800, #FF7538);
+  background-image: linear-gradient(135deg, 
+                                    var(--main-darker-color), 
+                                    var(--main-dark-color), 
+                                    var(--main-color));
 }
 
 .header-title {

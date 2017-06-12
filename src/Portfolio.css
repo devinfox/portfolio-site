@@ -7,6 +7,5 @@
  .portfolio-root {
   padding-bottom: 24px;
   padding-top: 24px;
-  font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--section-alt-bg-color);
 }
