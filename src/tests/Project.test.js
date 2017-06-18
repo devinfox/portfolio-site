@@ -6,7 +6,7 @@
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProjectData from "../ProjectData";
+import ProjectData from "../data/ProjectData";
 import Project from '../Project';
 
 it('renders without crashing', () => {

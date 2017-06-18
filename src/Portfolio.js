@@ -6,7 +6,7 @@
  */
 import React, { Component } from 'react';
 import Project from "./Project";
-import ProjectData from "./ProjectData";
+import ProjectData from "./data/ProjectData";
 import "./Portfolio.css";
 
 /**
@@ -22,7 +22,7 @@ class Portfolio extends Component{
     var projects = initProjects();
     // Recursively create Project components.
     var projectComponents = projects.map(project =>
-    <Project value={project}/>
+    <Project value={project} key={project.id}/>
 );
 
     return (
@@ -46,10 +46,11 @@ class Portfolio extends Component{
  */
 function initProjects() {
   var projects = [];
-  var data = require('./ProjectData.json');
+  var data = require('./data/ProjectData.json');
   for(var i = 0; i < data.length; i++) {
     var projectJSON = data[i];
-    projects.push(new ProjectData(projectJSON.img, 
+    projects.push(new ProjectData(projectJSON.id,
+                                  projectJSON.img, 
                                   projectJSON.title, 
                                   projectJSON.descr, 
                                   projectJSON.link));

@@ -15,15 +15,15 @@
  */
 class ProjectData {
 
-    constructor(img, title, descr, link) {
+    constructor(id, img, title, descr, link) {
+        this.id = id;
         this.img = img;     // Card header image, 600x320
         this.title = title; 
         this.descr = descr;
         this.link = link;   // Link to the project (store, web, etc)
 
-        // TODOs
-        // img caption
-        // btn label
+        // TODO: img caption
+        // TODO: btn label
     }
 }
 
