@@ -1,5 +1,5 @@
 # My personal website
-[![codebeat badge](https://codebeat.co/badges/483c56f4-4901-4a1e-a640-d92399c0a9da)](https://codebeat.co/projects/github-com-mateiradu-personal-website-master) [![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/)
+[![Build Status](https://travis-ci.org/mateiradu/personal-website.svg?branch=master)](https://travis-ci.org/mateiradu/personal-website) [![codebeat badge](https://codebeat.co/badges/483c56f4-4901-4a1e-a640-d92399c0a9da)](https://codebeat.co/projects/github-com-mateiradu-personal-website-master) [![](https://img.shields.io/badge/Bootstrap-v4.0.0--alpha.6-yellow.svg?colorB=563d7c)](https://v4-alpha.getbootstrap.com/)
 
 My personal landing page showcasing my portfolio, available at <https://mateiradu.me>.
 
