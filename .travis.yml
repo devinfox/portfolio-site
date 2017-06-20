@@ -1,6 +1,9 @@
 dist: trusty
 sudo: required
 group: edge
+branches:
+  only:
+  - master
 language: node_js
 node_js:
   - 6
