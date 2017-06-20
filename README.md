@@ -13,6 +13,11 @@ My personal landing page showcasing my portfolio, available at <https://mateirad
 
 Your site should be running on [localhost:3000](http://localhost:3000) and in any case, when running `npm start`, the console should show you the correct address.
 
+### Note for Travis CI
+As currently configured, the current `.travis.yml` script will trigger `scripts/deploy.sh` upon build success. The latter will deploy a production build to an existing Netlify site.
+
+Consider editing these scripts according to your needs and pipeline.
+
 ## Dependencies
 This website uses the following frameworks and tools:
 
