@@ -26,23 +26,16 @@ class About extends Component{
             <div className="col-xl-7 col-lg-6 col-md-12 col-sm-12 col-12 about-content">
               <h2>About</h2>
               <p className="about-p">
-                I am a {Constants.age}-year-old software developer passionate about software and 
-                technology in general.
+                I am a full-stack web developer passionate about developing an innovative future, and easing the tasks of everyday life with the advances of modern technology.
               </p>
               <p className="about-p">
-                I'm mainly interested in mobile and web development but, if a project is truly 
-                interesting, I will adapt to other roles just to make it happen.
+              I'm currently working with technologies such as NodeJS, Express, MongoDB, Ruby on Rails, HTML5, CSS3, Javascript, and Javascript libraries like React.
               </p>
               <p className="about-p">
-                Since I discovered Linux in 2010 I've been very attached to the open-source 
-                community and I continue to promote the movement. In the latest years, I've 
-                been open sourcing as much as I can and also been contributing to existing 
-                projects, like <a href="https://github.com/UnigramDev">Unigram</a>. Check out 
-                my <a href="https://github.com/mateiradu">Github</a> and see my contributions.
+                Before I started coding professionally, I ran and mantained a successful photography and graphic design entrepreneurship. This experience enabled me to get familiarized with Adobe Creative Suite to a second nature.
               </p>
               <p className="about-p">
-                When I'm not coding I love go for a ride with my motorcycle, go out for a 
-                delicious pizza with my friends or play the drums.
+                When I'm not coding or graphic designing, I have a passion for vocal production and session engineering musician's studio sessions.
               </p>
             </div>
             <div className="col-xl-4 offset-xl-1 col-lg-5 offset-lg-1 col-md-12 col-sm-12 col-12">

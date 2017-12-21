@@ -1,44 +1,34 @@
 [
     {
       "id": 0,
-      "img": "/img/projects/myunicam.png",
-      "title": "MyUnicam",
-      "descr": "A Xamarin app for the University of Camerino.",
-      "link": "https://www.slideshare.net/MateiBogdanRadu/myunicam-xamarin-forms-mobile-application"
+      "img": "https://i.imgur.com/Jvj8CIi.png",
+      "title": "Vetala",
+      "descr": "Vetala is your one stop shop for the most stylish apparel, accessories, and festival gear. With an online shopping cart implemented, you can place an order and have it shipped your house in 3-5 business days.",
+      "link": "https://vetalas.herokuapp.com/",
+      "git": "https://github.com/devinfox/Vetalas"
     },
     {
       "id": 1,
-      "img": "/img/projects/unigram.png",
-      "title": "Unigram",
-      "descr": "A UWP Telegram client for Windows 10 that runs on Desktop, Mobile and Xbox.",
-      "link": "http://unigram.me/"
+      "img": "https://camo.githubusercontent.com/f7a4ba41d8b2538fc38202b24f1ea1a42600e16b/68747470733a2f2f692e696d6775722e636f6d2f644d61656467422e706e67",
+      "title": "Where the Party App?",
+      "descr": "Where the Party App? is designed to address a centuries old problem for humanity: Why am I finding myself at this terrible bar / restaurant? And where are all of my friends? What is the cause of this dreadful paradigm? Where lies the seat of my morose?",
+      "link": "https://wtpa.herokuapp.com",
+      "git": "https://github.com/devinfox/DogWhisperer"
     },
     {
       "id": 2,
-      "img": "/img/projects/bikercompanion.png",
-      "title": "Biker Companion",
-      "descr": "Work in progress, coming soon...",
-      "link": "#"
+      "img": "https://i.imgur.com/wlEaIxU.png",
+      "title": "Kardashian Slot Machine",
+      "descr": "A Kardashian themed slot machine.",
+      "link": "https://devinfox.github.io/SlotMachine/",
+      "git": "https://github.com/devinfox/SlotMachine"
     },
     {
       "id": 3,
-      "img": "/img/projects/mixtape.png",
-      "title": "Mixtape",
-      "descr": "A simple Android music player.",
-      "link": "https://github.com/mateiradu/mixtape"
-    },
-    {
-      "id": 4,
-      "img": "/img/projects/unigram_me.png",
-      "title": "unigram.me",
-      "descr": "The Unigram project landing page, made with Bootstrap v4.",
-      "link": "http://unigram.me/"
-    },
-    {
-      "id": 5,
-      "img": "/img/projects/mateiradu_me.png",
-      "title": "mateiradu.me",
-      "descr": "This same website you're looking at, build with React and Bootstrap.",
-      "link": "https://github.com/mateiradu/personal-website"
+      "img": "https://i.imgur.com/QocakGB.png",
+      "title": "DogWhisprr",
+      "descr": "DogWhisprr is an app designed to aid in the fight against dog's being put down in shelters. This app allows not only pounds/animal shelters to post dogs that need saved, but individual users aswell.",
+      "link": "https://blooming-castle-78769.herokuapp.com/",
+      "git": "https://github.com/devinfox/DogWhisperer"
     }
 ]

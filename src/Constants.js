@@ -6,19 +6,19 @@
  */
 
 // Personal information.
-export const name = "Matei";
-export const fullName = "Matei Bogdan Radu";
-export const fullNameShort = "Matei Radu";
-export const email = "hello@mateiradu.me";
-const birthday = new Date(1992,3,24);
+export const name = "Devin";
+export const fullName = "Devin Patrick Fox";
+export const fullNameShort = "Devin Fox";
+export const email = "devinfoxbusiness@gmail.com";
+const birthday = new Date(1997,9,12);
 export const age = calculateAge(birthday);
-export const profession = "Software developer";
+export const profession = "Full-Stack Web Developer";
 
 // Contact links.
-export const emailLink = "mailto:"+email;
-export const githubLink = "https://github.com/mateiradu";
+export const emailLink = "devin:"+email;
+export const githubLink = "https://github.com/devinfox";
 export const twitterLink = "https://twitter.com/matei_dev";
-export const linkedinLink = "https://www.linkedin.com/in/mateibogdanradu/";
+export const linkedinLink = "www.linkedin.com/in/devinfox912";
 export const facebookLink = "https://www.facebook.com/mateiradu92";
 
 // Site information.

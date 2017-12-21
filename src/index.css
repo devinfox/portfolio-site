@@ -12,10 +12,11 @@
    * buttons and header.
    * Other tints are used as detail in some areas like 
    * button hover of header gradient. */
-  --main-light-color: #FED8B1;
-  --main-color: #FF7538;
-  --main-dark-color: #FF5800; 
-  --main-darker-color: #E34234;
+  --main-light-color: #4b606e;
+  --main-color: #36454f;
+  --main-dark-color: #242e35; 
+  --main-darker-color: #242e35;
+
 
   /* Section background colors.
    * Use these on alternate sections, so to have clear 

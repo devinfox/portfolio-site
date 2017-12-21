@@ -42,3 +42,8 @@
   position: relative;
   min-height: 180px;
 }
+
+.card img {
+  max-height: 600px;
+  object-fit: cover;
+}

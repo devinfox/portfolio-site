@@ -15,7 +15,7 @@ import "./Portfolio.css";
  * It uses an array of ProjectData to pass as arguments when
  * creating Project istances.
  * 
- * @author Matei Bogdan Radu
+ * 
  */
 class Portfolio extends Component{
   render() {

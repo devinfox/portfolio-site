@@ -20,10 +20,9 @@ class Contact extends Component{
             <h2>Contact</h2>
             <div className="row">
               <div className="col-12">
-                <p className="contact-block-header">Want to have a chat? Send me an email and we can chat til cows come home!</p>
+                <p className="contact-block-header">Trying to get a hold of me?  Feel free to contact me by email. </p>
                   <a className="btn btn-primary col-12 col-lg-12 col-md-6 email" href={Constants.emailLink}>{Constants.email}</a>
                   <p className="contact-block-header">You can also find me on social media if you prefer</p>
-                  <a className="btn btn-outline-primary col-12 col-lg-12 col-md-3 twitter" href={Constants.twitterLink}>Twitter</a>
                   <a className="btn btn-outline-primary col-12 col-lg-12 offset-lg-0 col-md-3 offset-md-1 github" href={Constants.githubLink}>GitHub</a>
                   <a className="btn btn-outline-primary col-12 col-lg-12 offset-lg-0 col-md-3 offset-md-1 linkedin" href={Constants.linkedinLink}>LinkedIn</a>
               </div>

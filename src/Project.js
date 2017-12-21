@@ -6,30 +6,30 @@
  */
 import React, { Component } from 'react';
 import "./Project.css";
-
+import Import, { Button, Row, Col, Card } from 'react-materialize'
+import Center from 'react-center';
 /**
  * Represents a single project card with all the essential data.
  * 
  * It uses an instance of ProjectData to populate the info.
  * 
- * @author Matei Bogdan Radu
+ *
  */
 class Project extends Component {
     render() {
         return (
-          <div className="project-root col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <div className="project-card card">
-              <div className="project-card-img-fill">
-                <img className="card-img-top" src={this.props.value.img} alt="Card cap"/>
-              </div>
-              <div className="project-block card-block">
+          <div>
+              <Card>
+              <img className="card d-flex" src={this.props.value.img} alt="Card cap"/>
                 <h4 className="project-title card-title">{this.props.value.title}</h4>
                 <p className="card-text">{this.props.value.descr}</p>
-                <a className="project-btn btn btn-primary" href={this.props.value.link}>Check it out</a>
-              </div>
-            </div>
+                  <Center>
+                <Button to={this.props.value.link}>Check it out</Button><br></br>
+                <Button className="right" to={this.props.value.git}>View The Source</Button>
+                  </Center>
+                  </Card>
           </div>
-        );
+        )
     }
 }
 

@@ -11,7 +11,6 @@
  * Objects of this class will be used to populate the
  * Portfolio section.
  * 
- * @author Matei Bogdan Radu
  */
 class ProjectData {
 
